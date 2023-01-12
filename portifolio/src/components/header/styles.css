@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.container-header {
+    width: 100vw;
+    height: 100px; 
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+    border-bottom: 1px solid;
+    backdrop-filter: blur(3px);
+    position: fixed;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+
+}
+
+.list-header {
+    display: flex;
+    gap: 30px;
+    margin: 0 80px 0 0px;
+    list-style: none;
+    
+}
+.logo {
+    margin:0 0 0 60px;
+}
+
+.logo-name {
+font-family: 'Moon Dance';
+font-size: 48px;
+cursor: pointer;
+}
+.logo-name:hover {
+  transform: translateX(5px) scale(1.3);
+}
+
+.list-options {
+    font-family: 'Sans serif';
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.list-options:hover {
+  transform: translateX(5px) scale(1.3);
+
+}

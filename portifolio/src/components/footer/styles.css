@@ -1,0 +1,14 @@
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 50px;
+    position: relative;
+    top: 560px;
+    right: 800px;
+}
+
+.img-footer {
+    height: 50px;
+}
