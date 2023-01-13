@@ -58,6 +58,20 @@ animation: arrow 1s alternate infinite;
     transform: translateY(20px);
  } 
 }
+@media (max-width:1440px) {
+       .presentation {
+        font-size: 36px;
+    }
+    .profile{
+        width: 190px;
+        height: 190px;
+
+    }
+    .down-arrow {
+        position: absolute;
+        top: 1100px;
+    }
+}
 
 @media (max-width: 768px) {
     
@@ -72,8 +86,17 @@ animation: arrow 1s alternate infinite;
         height: 180px;
     }
     .down-arrow {
-        position: absolute;
-        top: 750px;
+       display: none;
     }
 
+}
+
+@media (max-width:440px) {
+       .presentation {
+        font-size: 20px;
+    }
+    .profile{
+        width: 140px;
+        height: 140px;
+    }
 }

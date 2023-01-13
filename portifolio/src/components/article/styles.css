@@ -39,6 +39,17 @@ position: relative;
 transform: scale(1.2);
 }
 
+@media (max-width: 1440px) {
+
+    .container-article {
+    flex-direction: row;
+
+    }
+    .info-project {
+        width: 200px;
+        height: 200px;
+    }
+}
 
 @media (max-width: 768px) {
     .container-article {
@@ -51,5 +62,19 @@ transform: scale(1.2);
     .info-project {
         width: 200px;
         height: 200px;
+    }
+
+}
+
+@media (max-width:440px) {
+    .container-article {
+        gap: 20px;
+    }
+    .info-project {
+        width: 150px;
+        height: 150px;
+    }
+    .img-project {
+        font-size: 12px;
     }
 }
