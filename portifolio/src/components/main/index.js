@@ -1,6 +1,7 @@
 import './styles.css';
 import profile from '../../assets/profile.jpeg';
 import setaBaixo from '../../assets/setabaixo.svg';
+
 export default function Main(){
     return (
         <div id='main' className='container-main'>

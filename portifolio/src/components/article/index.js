@@ -1,8 +1,9 @@
 import './styles.css';
 
 export default function Article() {
+
     return (
-        
+ 
 <div id='project' className='container-article'>
     <div className='img-project'>
         <h2 className='info-project'>Aguardem...</h2>
@@ -13,7 +14,6 @@ export default function Article() {
     <div className='img-project'>
         <h2 className='info-project'>Aguardem...</h2>
     </div>
-    
 </div>
 
     );
