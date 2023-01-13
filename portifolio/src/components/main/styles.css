@@ -73,7 +73,7 @@ animation: arrow 1s alternate infinite;
     }
     .down-arrow {
         position: absolute;
-        top: 300px;
+        top: 750px;
     }
 
 }

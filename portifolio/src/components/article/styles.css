@@ -40,7 +40,6 @@ transform: scale(1.2);
 }
 
 
-
 @media (max-width: 768px) {
     .container-article {
         flex-direction: column;
