@@ -43,11 +43,11 @@ transform: scale(1.2);
 
 @media (max-width: 768px) {
     .container-article {
-        
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 30px;
+        flex-wrap: nowrap;
     }
     .info-project {
         width: 200px;

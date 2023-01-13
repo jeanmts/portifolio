@@ -15,7 +15,6 @@
     gap: 20px;
     height: 100vh;
     width: 100vw;
-    background-color: red;
 }
 .main {
     display: flex;
@@ -69,7 +68,12 @@ animation: arrow 1s alternate infinite;
         font-size: 30px;
     }
     .profile{
-        width: 250px;
-        height: 250px;
+        width: 180px;
+        height: 180px;
     }
+    .down-arrow {
+        position: absolute;
+        top: 300px;
+    }
+
 }
