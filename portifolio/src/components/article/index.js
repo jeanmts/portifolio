@@ -17,7 +17,6 @@ export default function Article() {
     <div className='img-project'>
         <h2 className='info-project'>Aguardem...</h2>
     </div>
-      <Footer/>
 </div>
 
     );

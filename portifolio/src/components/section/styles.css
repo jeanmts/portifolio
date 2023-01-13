@@ -39,3 +39,19 @@ font-family: 'Courier New', Courier, monospace;
 
 .text-about-me {
 }
+
+
+@media (max-width: 768px) {
+    .container-section {
+     height: 10%;   
+    flex-wrap:wrap;
+    padding-top:200px ;
+    padding-bottom: 200px;
+    }
+    .about-me {
+    font-size: 34px;
+    }
+    .about-me-p {
+        font-size: 20px;
+    }
+}

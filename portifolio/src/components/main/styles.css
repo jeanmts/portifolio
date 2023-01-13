@@ -15,7 +15,7 @@
     gap: 20px;
     height: 100vh;
     width: 100vw;
-    
+    background-color: red;
 }
 .main {
     display: flex;
@@ -60,3 +60,16 @@ animation: arrow 1s alternate infinite;
  } 
 }
 
+@media (max-width: 768px) {
+    
+    .main {
+        flex-direction: column;
+    }
+    .presentation {
+        font-size: 30px;
+    }
+    .profile{
+        width: 250px;
+        height: 250px;
+    }
+}

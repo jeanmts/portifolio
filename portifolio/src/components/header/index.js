@@ -1,10 +1,12 @@
 import './styles.css';
+import iconButton from '../../assets/icon-hamburger-button.svg';
 
 export default function Header() {
     return (
 <div className='container-header'>
     <div className='logo'>
         <h2 className='logo-name'>Jm</h2>
+        <img className='icon-button' src={iconButton}></img>
     </div>
     <nav className='nav-header'>
         <ul className='list-header'>
