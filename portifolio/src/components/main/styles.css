@@ -14,7 +14,7 @@
     justify-content: center;
     gap: 20px;
     height: 100vh;
-    width: 100vw;
+
 }
 .main {
     display: flex;
@@ -45,13 +45,6 @@
         transform: translateY(300px);
     }
 }
-.down-arrow {
-height: 130px;
-position: relative;
-top: 360px;
-cursor: pointer;
-animation: arrow 1s alternate infinite;
-}
 
 @keyframes arrow {
  from {
@@ -67,10 +60,7 @@ animation: arrow 1s alternate infinite;
         height: 190px;
 
     }
-    .down-arrow {
-        position: absolute;
-        top: 1100px;
-    }
+   
 }
 
 @media (max-width: 768px) {
@@ -85,10 +75,7 @@ animation: arrow 1s alternate infinite;
         width: 180px;
         height: 180px;
     }
-    .down-arrow {
-       display: none;
-    }
-
+    
 }
 
 @media (max-width:440px) {

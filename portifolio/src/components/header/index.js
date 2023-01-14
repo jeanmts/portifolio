@@ -23,20 +23,20 @@ function closeModal() {
     </div>
     <nav className='nav-header'>
         <ul className='list-header'>
-           <a href='#main'><li className='list-options'>Inicio</li></a>
-            <a href='#about'><li className='list-option about'>Sobre mim</li></a>
-           <a href='#project'><li className='list-options'>Projetos</li></a>
-    <a href='#contact'><li className='list-options'>Contato</li></a> 
+           <li className='list-options'> <a href='#main'>Inicio</a></li>
+            <li className='list-option about'><a href='#about'> Sobre mim</a></li>
+           <li className='list-options'><a href='#project'>Projetos</a></li>
+    <li className='list-options'><a href='#contact'>Contato</a></li> 
         </ul>
     </nav>
 </div>
 <div onClick={()=>closeModal()} className='open-modal close-modal'>
      <nav className='nav-modal'>
         <ul className='list-modal'>
-            <a href='#main'><li className='list-options-modal'>Inicio</li></a>
-            <a href='#about'><li className='list-option-modal about-modal'>Sobre mim</li></a>
-            <a href='#project'><li className='list-options-modal'>Projetos</li></a>
-            <a href='#contact'><li className='list-options-modal'>Contato</li></a> 
+            <li className='list-options-modal'><a href='#main'>Inicio</a></li>
+            <li className='list-option-modal about-modal'><a href='#about'>Sobre mim</a></li>
+            <li className='list-options-modal'><a href='#project'>Projetos</a></li>
+            <li className='list-options-modal'><a href='#contact'>Contato</a></li> 
         </ul>
     </nav>
 </div>

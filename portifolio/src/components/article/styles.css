@@ -14,7 +14,9 @@
     justify-content: center;
     background-color: rgba(0,0,0,0.2);
     flex-wrap: wrap;
-
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3%;
 }
 .img-project {
     font-family: 'sans serif';
@@ -33,9 +35,8 @@
     background-color: rgba(0,0,0,0.6);
     cursor: pointer;
 }
-
-.info-project:hover,.info-project:focus{
-    transform:scale(1.2);
+.info-project:hover, .info-project:focus{
+    transform: scale(1.2);
 }
 @media (max-width: 1440px) {
 
