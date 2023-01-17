@@ -9,14 +9,17 @@ export default function Section() {
             <h2  className='about-me'>Sobre Mim</h2>
             </div>
             <div className='text-about-me'>
-        <span  className='about-me-p'>Where does it come from?
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
-            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treati
+        <span  className='about-me-p'>
+            Baiano natural de salvador, tenho 28 anos de idade, cursando análise e desenvolvimento de sistemas pela Unigranrio.  
+            Em 2022 conheci a Cubos Academy, de onde veio o pontapé inicial para minha carreira de desenvolvedor e desde então venho buscando aprimorar meus conhecimentos adquiridos durante o curso de Desenvolvimento web Full Stack.
+            E só de imaginar o quanto evoluir nesse tempo como profissional me encoraja a completar novos desafios. E desde então tenho focado no Desenvolvimento Front end. 
+
         </span>
             </div>
             </div>
         </div>
     );
 }
+
+
+
