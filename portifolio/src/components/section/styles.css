@@ -1,88 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container-section {
-    background-image: url('../../assets/fundo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: url("../../assets/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section {
-    color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
-    gap: 30px;
-    text-align: center;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  gap: 30px;
+  text-align: center;
 }
-.about-me{
-    font-size: 68px;
-font-family: 'Courier New', Courier, monospace;
+.about-me {
+  font-size: 68px;
+  font-family: "Courier New", Courier, monospace;
 }
 .text-about-me {
-    width: 100%;
+  width: 100%;
 }
 .about-me-p {
-    font-size: 26px;
-    font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
+  font-family: "Courier New", Courier, monospace;
 }
 
-
-
-@media (max-width:1440px) {
-     .container-section {
-     height: 10%;   
-    flex-wrap:wrap;
-    padding-top:200px ;
+@media (max-width: 1440px) {
+  .container-section {
+    height: 10%;
+    flex-wrap: wrap;
+    padding-top: 200px;
     padding-bottom: 200px;
-    }
-    .about-me {
+  }
+  .about-me {
     font-size: 48px;
-    }
-    .about-me-p {
-        font-size: 24px;
-    }
-    
+  }
+  .about-me-p {
+    font-size: 24px;
+  }
 }
 @media (max-width: 768px) {
-    .container-section {
-     height: 10%;   
-    flex-wrap:wrap;
-    padding-top:200px ;
+  .container-section {
+    height: 10%;
+    flex-wrap: wrap;
+    padding-top: 200px;
     padding-bottom: 200px;
-    }
-    .about-me {
+  }
+  .about-me {
     font-size: 34px;
-    }
-    .about-me-p {
-        font-size: 20px;
-    }
-    .text-about-me {
-        width: 500px;
-    }
+  }
+  .about-me-p {
+    font-size: 20px;
+  }
+  .text-about-me {
+    width: 500px;
+  }
 }
 
-
-@media (max-width:440px) {
-
-    .about-me {
-        font-size: 38px;
-        width: 208px;
-    }
-    .about-me-p {
-        font-size: 16px;
-    
-    }
-    .text-about-me {
-        width: 390px;
-    }
+@media (max-width: 440px) {
+  .about-me {
+    font-size: 38px;
+    width: 208px;
+  }
+  .about-me-p {
+    font-size: 16px;
+  }
+  .text-about-me {
+    width: 390px;
+  }
 }
-
