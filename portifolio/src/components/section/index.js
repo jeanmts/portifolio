@@ -16,7 +16,7 @@ export default function Section() {
             pessoais e bootcamps. Durante toda minha trajetória de estudos e
             projetos pessoais tive a oportunidade de desenvolver habilidades
             como trabalho em equipe, gestão de tempo e conflitos e linguagem
-            não-violenta..
+            não-violenta.
           </span>
         </div>
       </div>
