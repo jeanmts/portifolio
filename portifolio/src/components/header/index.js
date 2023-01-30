@@ -21,8 +21,7 @@ export default function Header() {
           <img
             onClick={() => menuModal()}
             className="icon-button"
-            src={iconButton}
-          ></img>
+            src={iconButton}></img>
         </div>
         <nav className="nav-header">
           <ul className="list-header">
