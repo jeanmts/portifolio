@@ -1,17 +1,22 @@
 import "./styles.css";
-
+import projects from "../../Data/project/index";
 export default function Article() {
+  function handleVisitProject() {}
+
   return (
-    <div id="project" className="container-article">
-      <div className="img-project">
-        <h2 className="info-project">Aguardem...</h2>
-      </div>
-      <div className="img-project">
-        <h2 className="info-project">Aguardem...</h2>
-      </div>
-      <div className="img-project">
-        <h2 className="info-project">Aguardem...</h2>
-      </div>
-    </div>
+    <>
+      {projects.map((project, indice) => {
+        return (
+          <div
+            onClick={() => handleVisitProject()}
+            key={project.id}
+            className="container-article">
+            <a href={project.url} className="info-project">
+              {project.name}
+            </a>
+          </div>
+        );
+      })}
+    </>
   );
 }

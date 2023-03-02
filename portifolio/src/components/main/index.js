@@ -15,7 +15,7 @@ export default function Main() {
           </div>
         </div>
         <div>
-          <img className="profile" alt="profile image" src={profile} />
+          <img className="profile" alt="profile-image" src={profile} />
         </div>
       </div>
     </div>
