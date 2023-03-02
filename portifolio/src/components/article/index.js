@@ -8,6 +8,7 @@ export default function Article() {
       {projects.map((project, indice) => {
         return (
           <div
+            id="project"
             onClick={() => handleVisitProject()}
             key={project.id}
             className="container-article">
